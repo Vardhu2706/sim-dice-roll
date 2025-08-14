@@ -1,4 +1,3 @@
-# dice_sim/core.py
 import random
 from collections import Counter
 import pandas as pd

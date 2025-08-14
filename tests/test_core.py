@@ -1,5 +1,3 @@
-# tests/test_core.py
-
 from sim_dice_roll.core import run_simulation, summarize_results
 
 def test_run_simulation_length():

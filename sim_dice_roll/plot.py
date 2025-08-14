@@ -1,4 +1,3 @@
-# dice_sim/plot.py
 import seaborn as sns
 import matplotlib.pyplot as plt
 

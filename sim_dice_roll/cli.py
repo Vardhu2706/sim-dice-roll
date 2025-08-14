@@ -1,4 +1,3 @@
-# dice_sim/cli.py
 import click
 from .core import run_simulation, summarize_results
 from .plot import plot_distribution

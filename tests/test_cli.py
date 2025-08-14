@@ -1,5 +1,3 @@
-# tests/test_cli.py
-
 from click.testing import CliRunner
 from sim_dice_roll.cli import main
 
