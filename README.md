@@ -9,14 +9,15 @@ A simple, modular command-line tool to simulate rolling one or more dice multipl
 - Run dice roll simulations with configurable trials and number of dice
 - View summary table of outcomes and probabilities
 - Plot probability distributions using Seaborn
-- Built with modular code, CLI support, and test coverage
+- Includes a professional Jupyter notebook version of the simulation
+- Built with modular code, CLI support, test coverage, and GitHub Actions
 
 ## 🚀 Quick Start
 
 ### Install
 
 ```bash
-git clone https://github.com/yourusername/sim-dice-roll.git
+git clone https://github.com/Vardhu2706/sim-dice-roll.git
 cd sim-dice-roll
 pip install -e .
 ```
@@ -39,6 +40,20 @@ pytest tests/
 flake8 sim_dice_roll tests
 ```
 
+### Run Notebook
+
+```bash
+jupyter notebook sim-dice-roll.ipynb
+```
+
+## 📓 Jupyter Notebook
+
+This project also includes a structured Jupyter notebook:  
+[`sim-dice-roll.ipynb`](./sim-dice-roll.ipynb)
+
+It walks through the same simulation interactively using the Ingest → EDA → Modeling → Conclusion format.  
+Great for exploring or presenting the idea before turning it into a CLI.
+
 ## 📁 Project Structure
 
 ```
@@ -48,6 +63,7 @@ sim-dice-roll/
 │   ├── plot.py        # Plotting logic
 │   └── cli.py         # CLI entry point
 ├── tests/             # Unit tests
+├── sim-dice-roll.ipynb# Interactive notebook version
 ├── requirements.txt   # Dependencies
 ├── setup.py           # Installable package definition
 ├── Makefile           # Automation commands
