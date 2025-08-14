@@ -1,5 +1,7 @@
 # 🎲 sim-dice-roll
 
+[![🧪 Python CI](https://github.com/Vardhu2706/sim-dice-roll/actions/workflows/python-cli.yml/badge.svg)](https://github.com/Vardhu2706/sim-dice-roll/actions/workflows/python-cli.yml)
+
 A simple, modular command-line tool to simulate rolling one or more dice multiple times. Useful for learning Python, probability, simulation, and building CLI tools with professional structure.
 
 ## 📦 Features
